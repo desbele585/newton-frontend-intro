@@ -1,0 +1,107 @@
+.menu-section{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    background-color:#dcdde1;
+}
+.menu li a{
+    text-decoration: none;
+    color: #353b48;
+    padding: 1.4em 1em;
+    display: block;
+    transition: all .5s ease;
+    text-decoration: white;
+}
+.menu li a:hover{
+    background-color:#ffffff;
+
+}
+
+@media screen and (min-width:600px){
+    .single-nav ul{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .single-nav ul li{
+        flex-grow: 1;
+        flex-basis: auto;
+        flex-shrink: 0;
+    }
+    .site-branding ul{
+       list-style-type: none;
+       
+      
+    }
+    .master-head{
+        background-color: #ccefff;
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5em;
+    }
+}
+#customer-gerreting{
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 1.9em;
+    color:black;
+
+}
+#man-pig{
+    width: 12em;
+    
+}
+/* Style for Contact */
+.message-menu{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+#lemail{
+    width: 26em;
+    padding: 0.5em;
+}
+#text-message{
+    width: 27em;
+    padding: 0.2em;
+}
+#text-email{
+  margin: .1em;
+  color: white;
+    
+}
+#message-title{
+    color: white;
+}
+#text-message{
+    margin:0.5em ;
+   
+}
+.message-menu{
+    margin: 0em;
+}
+#lemail{
+    margin: 0.5em;
+   
+}
+#question-toask{
+    font-size: 4em;
+    margin: 2em;
+    color: white;
+}
+.contact-area{
+    background-color: #737373;
+}
+.message-area{
+    margin: 8em;
+}
