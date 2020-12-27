@@ -373,10 +373,6 @@ body{
      
       
     }
-    
- 
-
-
     .home-info{
         margin-left: 47px;
         margin-right: 47px;
@@ -524,6 +520,23 @@ body{
         }
       }
 
+  /* Index style */
+  .main-page{
+      background-color:#8080ff;
+      border-style: groove;
+      color:transparent;
+      margin-right: 50px;
+      margin-left: 50px;
+
+  }
+  #page-title{
+      display: flex;
+      justify-content: center;
+      font-style: italic;
+      font-size: 5em;
+      color:burlywood;
+      font-family: fantasy;
+  }
     
 
    
